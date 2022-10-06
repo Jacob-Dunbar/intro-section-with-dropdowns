@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <script defer src="./script.js"></script>
+  </head>
+  <body>
+    <div class="site-wrapper">
+      <div class="screen-fade" id="screen-fade"></div>
+      <div class="container">
+        <!-- NAVIGATION -->
+        <div class="navbar">
+          <img
+            src="/intro-section-with-dropdown-navigation-main/images/logo.svg"
+            alt="logo"
+            class="logo"
+          />
+
+          <img
+            src="/intro-section-with-dropdown-navigation-main/images/icon-menu.svg"
+            alt=""
+            class="hamburger"
+            id="hamburger"
+          />
+          <!-- MENU-DESKTOP -->
+
+          <div class="menu-desktop">
+            <ul class="left-menu">
+              <li class="left-menu-item-1" id="features-desk">
+                <a href="#"
+                  >Features
+                  <img
+                    class="chev"
+                    id="features-chev-desk"
+                    src="/intro-section-with-dropdown-navigation-main/images/icon-arrow-down.svg"
+                    alt=""
+                /></a>
+                <ul class="drop-down-menu-1" id="features-dd-desk">
+                  <li>
+                    <img
+                      src="/intro-section-with-dropdown-navigation-main/images/icon-todo.svg"
+                      alt=""
+                    />
+                    <a href="#">Todo List</a>
+                  </li>
+                  <li>
+                    <img
+                      src="/intro-section-with-dropdown-navigation-main/images/icon-calendar.svg"
+                      alt=""
+                    />
+                    <a href="#">Calendar</a>
+                  </li>
+                  <li>
+                    <img
+                      src="/intro-section-with-dropdown-navigation-main/images/icon-reminders.svg"
+                      alt=""
+                    />
+                    <a href="#">Reminders</a>
+                  </li>
+                  <li>
+                    <img
+                      src="/intro-section-with-dropdown-navigation-main/images/icon-planning.svg"
+                      alt=""
+                    />
+                    <a href="#">Planning</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="left-menu-item-2" id="company-desk">
+                <a href="#"
+                  >Company
+                  <img
+                    class="chev"
+                    id="company-chev-desk"
+                    src="/intro-section-with-dropdown-navigation-main/images/icon-arrow-down.svg"
+                    alt=""
+                /></a>
+                <ul class="drop-down-menu-2" id="company-dd-desk">
+                  <li><a href="#">History</a></li>
+                  <li><a href="#">Our Team</a></li>
+                  <li><a href="#">Blog</a></li>
+                </ul>
+              </li>
+              <li class="left-menu-item"><a href="#">Careers</a></li>
+              <li class="left-menu-item"><a href="#">About</a></li>
+            </ul>
+
+            <ul class="right-menu">
+              <li><a href="#">Login</a></li>
+              <li><a class="register" href="#">Register</a></li>
+            </ul>
+          </div>
+          <!-- MENU-MOBILE -->
+          <div class="menu-mobile" id="menu-mobile">
+            <ul class="left-menu">
+              <img
+                src="/intro-section-with-dropdown-navigation-main/images/icon-close-menu.svg"
+                alt=""
+                class="cross"
+                id="cross"
+              />
+              <li class="left-menu-item">
+                <a id="features-mob" href="#"
+                  >Features
+                  <img
+                    id="features-chev-mob"
+                    class="chev"
+                    src="/intro-section-with-dropdown-navigation-main/images/icon-arrow-down.svg"
+                    alt=""
+                /></a>
+                <ul class="drop-down-menu" id="features-dd-mob">
+                  <li>
+                    <img
+                      src="/intro-section-with-dropdown-navigation-main/images/icon-todo.svg"
+                      alt=""
+                    />
+                    <a href="#">Todo List</a>
+                  </li>
+                  <li>
+                    <img
+                      src="/intro-section-with-dropdown-navigation-main/images/icon-calendar.svg"
+                      alt=""
+                    />
+                    <a href="#">Calendar</a>
+                  </li>
+                  <li>
+                    <img
+                      src="/intro-section-with-dropdown-navigation-main/images/icon-reminders.svg"
+                      alt=""
+                    />
+                    <a href="#">Reminders</a>
+                  </li>
+                  <li>
+                    <img
+                      src="/intro-section-with-dropdown-navigation-main/images/icon-planning.svg"
+                      alt=""
+                    />
+                    <a href="#">Planning</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="left-menu-item">
+                <a id="company-mob" href="#"
+                  >Company
+                  <img
+                    id="company-chev-mob"
+                    class="chev"
+                    src="/intro-section-with-dropdown-navigation-main/images/icon-arrow-down.svg"
+                    alt=""
+                /></a>
+                <ul class="drop-down-menu" id="company-dd-mob">
+                  <li><a href="#">History</a></li>
+                  <li><a href="#">Our Team</a></li>
+                  <li><a href="#">Blog</a></li>
+                </ul>
+              </li>
+              <li class="left-menu-item"><a href="#">Careers</a></li>
+              <li class="left-menu-item"><a href="#">About</a></li>
+            </ul>
+
+            <ul class="right-menu">
+              <li><a href="#">Login</a></li>
+              <li class="register"><a href="#">Register</a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- CONTENT -->
+        <div class="content">
+          <div class="content-left">
+            <h1>
+              Make <br />
+              remote work
+            </h1>
+            <p>
+              Get your team in sync, no matter your location. Steamline
+              processes, create team rituals, and watch productivity soar.
+            </p>
+            <button>Learn more</button>
+            <footer>
+              <img
+                src="/intro-section-with-dropdown-navigation-main/images/client-databiz.svg"
+                alt=""
+                class="footer-logo"
+              />
+              <img
+                src="/intro-section-with-dropdown-navigation-main/images/client-audiophile.svg"
+                alt=""
+                class="footer-logo"
+              />
+              <img
+                src="/intro-section-with-dropdown-navigation-main/images/client-meet.svg"
+                alt=""
+                class="footer-logo"
+              />
+              <img
+                src="/intro-section-with-dropdown-navigation-main/images/client-maker.svg"
+                alt=""
+                class="footer-logo"
+              />
+            </footer>
+          </div>
+          <img
+            class="img-mob"
+            src="/intro-section-with-dropdown-navigation-main/images/image-hero-mobile.png"
+            alt="man with laptop"
+          />
+          <img
+            class="img-desk"
+            src="/intro-section-with-dropdown-navigation-main/images/image-hero-desktop.png"
+            alt="man with laptop"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<!-- 
+    
+    TO DO >
+
+x add darken background to mobile menu 
+x fix mobile scrolling issue
+x start on nav bar menu-desktop
+x make content a little more central
+x make audiophile smaller
+x increase spacing and indent on mobile menu
+x make learn more btn responsive
+x do content mobile view
+- change to do text desk and mob
+
+-->
