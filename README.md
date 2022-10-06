@@ -14,9 +14,6 @@ This is a solution to the [Intro section with dropdown navigation challenge on F
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -32,81 +29,56 @@ Users should be able to:
 
 ![](./screenshot.jpg)
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
-
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Frontend Mentor Submission](https://www.frontendmentor.io/solutions/intro-section-with-dropdowns-qg1jaKJv5s)
+- [Live Site](https://jacob-dunbar.github.io/intro-section-with-dropdowns/)
 
 ## My process
 
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
+- HTML5
+- CSS
 - Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+- JavaScript
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+This challenge was my first attempt at dropdown menus, which are a very common and important design pattern. I tried several different techniques before selecting the method I used. I'm not sure that this is the most effective way, but I certainly learned a lot about the EventListener() method and .classList property on JavaScript, as well as the CSS transitions and position properties, variables and pseudo-classes. 
 
-To see how you can add code snippets, see below:
+I also expanded on what I have already learned about responsive design, and especially how that relates to navigation (switching from a nav bar to a hamburger menu etc). Using the CSS aspect ratio property and clamp() function was really helpful in making this page responsive, and I really enjoyed learning how they work and implementing them in my project.
 
-```html
-<h1>Some HTML code I'm proud of</h1>
+```css
+.content .content-left h1 {
+  font-size: clamp(1rem, 6vw, 3.9rem);
+  line-height: 1.1;
+}
 ```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
+.content {
+  width: 87.5%;
+  margin: auto;
+  aspect-ratio: 16 / 9;
 }
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+Whilst I learned a lot from this project, it also highlighted some areas for improvement for me. I used flexbox for the main layout of this page, but I think that CSS Grid may have been a better choice. I have yet to delve into Grid but will set aside some time to learn it so that I can implement it in a future project.
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+This project also got me thinking about the possibility of using frameworks like React, and how such a framework might help my developer experience. I will definitely learn React in the future, once I have gained more proficiency in JavaScript.
+
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Let's Learn About Aspect Ratio In CSS](https://ishadeed.com/article/css-aspect-ratio/) - This article about aspect ratio from Ahmad Shadeed was really helpful, as it not only explained how to implement it in CSS, but also what aspect ratio is and how it works. This was the first time I came across Ahmad Shadeed's site, but have since been back and found his articles really interesting and informative.
+- [HTML CSS and Javascript Website Design Tutorial - Beginner Project Fully Responsive](https://www.youtube.com/watch?v=FazgJVnrVuI) - I actually followed and completed this tutorial from Brian Design on youtube in preparation for this challenge, as I could see it had many of the same features and requirements. This gave me many of the tools I needed to complete the challenge, and the repetition of the techniques really help cement them in my mind. Repetition is the key to mastery.
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@Jacob-Dunbar](https://www.frontendmentor.io/profile/Jacob-Dunbar)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
